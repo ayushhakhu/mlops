@@ -1,0 +1,22 @@
+artifact_path: /workspaces/mlops/02-tracking/homework/artifacts_local/2/models/m-ad2fcb1cbc6d4a34a83bc46dbd717d81/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.1
+model_id: m-ad2fcb1cbc6d4a34a83bc46dbd717d81
+model_size_bytes: 3086088
+model_uuid: m-ad2fcb1cbc6d4a34a83bc46dbd717d81
+prompts: null
+run_id: 60fd568478dd42b79076b18cde0a943a
+utc_time_created: '2025-07-21 06:32:01.509286'
